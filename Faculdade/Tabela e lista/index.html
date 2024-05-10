@@ -1,0 +1,69 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container"><!--Container pra agrupar tudo-->
+        <table border="1px" cellpadding="10px" cellspacing="0px" class="tabela"> <!-- Tabela definida para ter um espaçamento de 10px do conteúdo e da tabela -->
+            
+            <tr>
+                <th></th>
+                <th>Teste 1</th>
+                <th>Teste 2</th>
+                <th>Teste 3</th>
+                <th>Teste 4</th>
+            </tr>
+            <tr>
+                <th>Horário</th>
+                <td class="hora">13:50</td>
+                <td class="hora">15:25</td>
+                <td class="hora">21:00</td>
+                <td class="hora">00:15</td>
+            </tr>
+            <tr>
+                <th>Preço</th>
+                <td>R$13,80</td>
+                <td>R$12,50</td>
+                <td>R$18,90</td>
+                <td>R$11,10</td>
+            </tr>
+            <tr>
+                <th>Local</th>
+                <td colspan=4 rowspan=2 id="local">rio de janeiro</td>
+            </tr>
+            <tr>
+                <th>Chegada</th>
+            </tr>
+        </table>
+            <hr class="linha" >
+        <div id="lista">
+            <ul>
+                <li>Top jogos preferidos</li>
+                <ol type="a">
+                    <li>Rocket league</li>
+                    <li>Counter Strike</li>
+                    <li>Minecraft</li>
+                </ol>
+            </ul>
+        </div>
+    </div>
+    <div class="cont_imagem">
+        <span class="antes_imagem">Este texto aparece antes da imagem, a qual vai ser alinhada à esquerda</span>
+        <img src="https://a.espncdn.com/i/teamlogos/soccer/500/819.png" width="200px" class="imagem">
+        <span class="dolado_imagem">Esta frese está na mesma linha da imagem<br>pelo que fica à sua direita.</span>
+    </div>
+    <form method='post' action='lasalle.py'>
+        <fieldset>
+            <legend>Formulário</legend>
+            <label for="usuario">Nome Completo</label>
+            <input type="text" id="usuario" class="nome"/><br/>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha"/>
+        </fieldset>
+    </form>
+</body>
+</html>

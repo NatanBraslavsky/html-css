@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    background-color: #3787bd;
+    color: #f3f3ff;
+    font-size: 22px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+}
+
+.container_principal{
+    background-color: rgb(40, 97, 136);
+    width: 40%;
+    height: 160%;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 4px;
+}
+
+.label_nome{
+    display: block;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.nome_idade_email{
+    margin-left: 30px;
+    margin-top: 6px;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 86%;
+    height: 46px;
+    padding-left: 10px;
+}
+
+.opcional{
+    display: inline;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+select{
+    width: 86%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 6px;
+}
+
+.amigo{
+    margin-left: 30px;
+    display: block;
+    margin-top: 43px;
+}
+
+.teste{
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-bottom: 1px;
+}
+
+.parte_favorita{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: block;
+}
+
+.melhora{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.checkbox{
+    margin-top: 10px;
+}
+
+.label_projetos{
+    margin-top: 5px;
+    display: block;
+}
+
+.comentario{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.areatexto{
+    width: 92%;
+    display: block;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 140px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 27px;
+}
+
+.obrigado{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.botao{
+    background-color: #37AF65;
+    width: 92%;
+    height: 50px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 35px;
+    font-size: 19px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+

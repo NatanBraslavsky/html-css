@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --cor0:#1F2024;
+    --cor01:#164773;
+    --cor1:#1d5c94;
+    --cor2:#0B2B40;
+    --cor3:#D9D9D9;
+    --cor4:#3B8C6E;
+    --cor5:#89D99D;
+    --cor6:#FACFCE;
+
+    --fonte-destaque:"Bebas Neue", sans-serif;
+    --fonte-paragrafo:"Open Sans", sans-serif;
+}
+
+body{
+    background-color: #24292E;
+}
+
+header{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--fonte-destaque);
+    padding-top: 60px;
+    font-size: 2.5em;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px black;
+}
+
+header p{
+    max-width: 710px;
+    padding-top: 25px;
+    margin: auto;
+    font-size: 1.2em;
+    padding-bottom: 50px;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Open Sans", sans-serif;
+}
+
+#primeiraLinha{
+    max-width: 1100px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 200px;
+    flex-wrap: wrap;
+}
+
+#introducaoHtml{
+    background-color: var(--cor3);
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+    transition: 0.3s;
+    margin: 50px;
+}
+
+#introducaoHtml:hover{
+    transform: scale(1.1);
+}
+
+.htmlImagem{
+    width: 90px;
+}
+
+#introducaoHtml p{
+    font-size: 14px;
+    font-weight: 300;
+    padding:10px;
+}
+
+
+
+#lista{
+    background-color: var(--cor3);
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+    transition: 0.3s;
+    margin: 50px;
+}
+
+#lista:hover{
+    transform: scale(1.1);
+}
+
+.listaImagem{
+    width: 70px;
+    padding-top: 10px;
+}
+
+#lista p{
+    font-size: 14px;
+    font-weight: 300;
+    padding:10px;
+}
+
+#lista h1{
+    padding-top: 15px;
+}
+
+#tabela{
+    background-color: var(--cor3);
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+    transition: 0.3s;
+    margin: 50px;
+}
+
+#tabela:hover{
+    transform: scale(1.1);
+}
+
+.tabelaImagem{
+    width: 90px;
+}
+
+#tabela p{
+    font-size: 14px;
+    font-weight: 300;
+    padding:10px;
+}
+
+
+#formulario{
+    background-color: var(--cor3);
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+    transition: 0.3s;
+    margin: 50px;
+}
+
+#formulario:hover{
+    transform: scale(1.1);
+}
+
+#formulario p{
+    font-size: 14px;
+    font-weight: 300;
+    padding:10px;
+}
+
+.formularioImagem{
+    width: 100px;
+}
+
+#introducaoCss{
+    background-color: var(--cor3);
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+    transition: 0.3s;
+    margin: 50px;
+}
+
+#introducaoCss:hover{
+    transform: scale(1.1);
+}
+
+.cssImagem{
+    width: 80px;
+    padding-top: 15px;
+}
+
+#introducaoCss p{
+    font-size: 14px;
+    font-weight: 300;
+    padding:10px;
+}
+
+#divCss{
+    background-color: var(--cor3);
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.753);
+    transition: 0.3s;
+    margin: 50px;
+}
+
+#divCss:hover{
+    transform: scale(1.1);
+}
+
+.divImagem{
+    width: 80px;
+}
+
+#divCss p{
+    font-size: 14px;
+    font-weight: 300;
+    padding:10px;
+}
+
+@media(max-width:450px){
+    header{
+        font-size: 10px;
+    }
+}

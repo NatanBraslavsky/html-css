@@ -1,0 +1,59 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="titulo">
+    freeCodeCamp Survey Formulário <br> <div class="obrigado">Obrigado por dedicar seu tempo para nos ajudar a melhorar a plataforma</div>
+</div>
+    <div class="container_principal">
+        <label for="nome" class="label_nome">Name</label>
+        <input type="text" placeholder="Digite seu nome" class="nome_idade_email"/>
+
+        <label for="email" class="label_nome">Email</label>
+        <input type="email" placeholder="Digite seu email" class="nome_idade_email"/>
+
+        <label for="idade" class="label_nome">Idade <div class="opcional">(opcional)</div></label>
+        <input type="text" placeholder="Idade" class="nome_idade_email"/>
+
+        <label for="role" class="label_nome">Qual das opções descreve melhor a sua função atual? </label>
+        <select name="função">
+            <option value="">Selecione sua função atual</option>
+        </select>
+
+        <span class="amigo">Você recomendaria esse site para um amigo?<br></span>
+        <input type="radio" name="recomendaria" class="teste"/> Definitivamente <br>
+        <input type="radio" name="recomendaria" class="teste"/> Talvez <br>
+        <input type="radio" name="recomendaria" class="teste"/> Não <br>
+
+        <span class="parte_favorita">Qual é sua parte favorita do site?</span> 
+        <select name="opcao">
+            <option value="">Selecione sua função atual</option>
+        </select>
+
+        <div class="melhora">
+            O que você gostaria de ver melhorado?<br>
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Projetos Front-end</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Projetos Back-end</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Ciência de Dados</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Desafios</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Pesquisa aberta da comunidade</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Sala de ajudas</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Vídeos</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Encontros pessoais</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Pesquisas</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Fórum</label> 
+            <label class="label_projetos"><input type="checkbox" class="checkbox"/> Cursos adicionais</label> 
+        </div>
+        <div class="comentario">
+            Algum comentário ou sugestão?
+        </div>
+        <textarea name="textoarea" id="textarea1" cols="30" rows="10" class="areatexto" placeholder="Digite seu comentário aqui..."></textarea>
+        <button type="submit" class="botao">Submit</button>
+    </div>
+
+</body>
+</html>
